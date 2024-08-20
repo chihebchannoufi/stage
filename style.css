@@ -54,8 +54,8 @@ img {
 }
 
 .club img {
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
 }
 
 .club h1 {
@@ -206,7 +206,7 @@ a {
 }
 
 .submit-button {
-    background-color: #0198a5;
+    background-color:  #10acba;
     color: #fff;
     border: none;
     padding: 12px;
@@ -219,7 +219,7 @@ a {
 }
 
 .submit-button:hover {
-    background-color: #0198a5;
+    background-color:#0198a5 ;
 }
 
 @media (min-width: 768px) {
