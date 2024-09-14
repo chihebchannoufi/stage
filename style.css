@@ -1,3 +1,8 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
 #section1 {
     background-color: whitesmoke;
 }
@@ -216,6 +221,7 @@ a {
     display: flex;
     align-items: center;
     gap: 8px;
+    border-radius: 40px;
 }
 
 .submit-button:hover {
