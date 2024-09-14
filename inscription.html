@@ -15,7 +15,12 @@
 
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center fixed-top">
         <div class="container-fluid">
+<<<<<<< HEAD
             <a class="navbar-brand" href="/">YOUTH ACTIVISTS</a>
+=======
+            <img src="image/youth.png" alt="Logo" style="width:40px;" class="rounded-pill">
+            <a class="navbar-brand" href="/">YOUTH ACTIVISTS</a>            
+>>>>>>> c994136ecd3ace0917e6c6a1b65fab6a1be3b89b
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -39,8 +44,14 @@
                         <span><i class="fa-solid fa-gear"></i></span>
                     </button>
                     <ul class="dropdown-menu">
+<<<<<<< HEAD
                         <li><a class="dropdown-item" href="login.html"><span><i class="fa-solid fa-lock">
                             espace membre</i></span></a></li>
+=======
+                        <li>
+                            <a href="{{ route('login') }}" class="dropdown-item"><span><i class="fa-solid fa-lock"> espace membre</i></span></a>
+                        </li>
+>>>>>>> c994136ecd3ace0917e6c6a1b65fab6a1be3b89b
                     </ul>
                 </div>
             </div>
@@ -49,7 +60,7 @@
 
     <div id="section1" class="container-fluid" style="padding:180px 50px;">
         <div id="Formulaire">
-            <form action="" class="row g-3">
+            <form action="{{ route('inscription.store') }}" method="POST" class="row g-3">
                 <div class="col-md-6">
                     <label for="name" class="form-label">Name</label>
                     <input type="text" class="form-control" name="name" id="name" required>
@@ -129,9 +140,19 @@
         </div>
     </div>
 
-    <div class="mt-5 p-4 bg-dark text-white text-center">
+    <div class="mt-5 p-3 bg-dark text-white text-center">
         <p>Copyright © Youth Activists</p>
-        <p>Created by Chiheb Channoufi</p>
+        <div>
+            <a href="https://www.facebook.com/" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
     </div>
 </body>
 
