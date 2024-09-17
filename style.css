@@ -86,11 +86,11 @@ ul {
     padding: 0;
 }
 
-li {
+#li {
     display: inline-flex;
 }
 
-a {
+#a {
     position: relative;
     padding: 1rem 0 0.5rem;
     margin: 0 1.5rem;
